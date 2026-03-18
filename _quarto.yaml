@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "王新梅 - 个人简历"
+  navbar:
+    background: "#2E8B57"
+    foreground: white
+    left:
+      - text: "首页"
+        href: index.qmd
+
+format:
+  html:
+    css: styles.css
+    toc: false
+    highlight: null
+
+editor: visual

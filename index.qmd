@@ -1,0 +1,144 @@
+---
+title: "王新梅的个人主页"
+---
+
+```{=html}
+<style>
+:root {
+  --primary: #2E8B57;
+  --secondary: #90EE90;
+  --text: #2F4F4F;
+  --bg: #F5FFFA;
+  --card-bg: #ffffff;
+  --border: #90EE90;
+}
+</style>
+```
+
+```{=html}
+<div class="resume-container">
+  <!-- 顶部个人信息区域 -->
+  <header class="profile-header">
+    <div class="photo-frame">
+      <img src="images/photo.jpeg" alt="王新梅照片" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="photo-placeholder" style="display: none;">
+        <span>📷</span>
+        <span>照片位置</span>
+      </div>
+    </div>
+    <div class="profile-info">
+      <h1>王新梅 🌿</h1>
+      <p class="subtitle">华中农业大学 林学专业本科</p>
+      <div class="contact-info">
+        <span>📱 15121298736</span>
+        <span>📧 3272574474@qq.com</span>
+        <span>📍 贵州遵义</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- 教育背景 -->
+  <section class="card">
+    <h2 class="card-title">🎓 教育背景</h2>
+    <div class="card-content">
+      <div class="edu-item">
+        <h3>华中农业大学 林学（本科）</h3>
+        <p class="period">2021-09 ~ 2025-06</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 实习经历 -->
+  <section class="card">
+    <h2 class="card-title">🌱 实习经历</h2>
+    <div class="card-content timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker">🌱</div>
+        <div class="timeline-content">
+          <h3>庐山树木与生态课程实习</h3>
+          <p class="period">2023-05</p>
+          <p>辨认树木种类和操作生态学调查技术的实际应用</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">🌿</div>
+        <div class="timeline-content">
+          <h3>林木育苗与栽培实习</h3>
+          <p class="period">2024-02 ~ 2024-06</p>
+          <p>从种子开始育苗栽培以及实践嫁接技术</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">🌲</div>
+        <div class="timeline-content">
+          <h3>森林资源调查与规划实习</h3>
+          <p class="period">2024-07</p>
+          <p>对神农架红花朵林场资源进行实地调查并进行规划</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">🌳</div>
+        <div class="timeline-content">
+          <h3>武汉市园林绿化资源动态监测实习</h3>
+          <p class="period">2025-03</p>
+          <p>对武汉黄陂区更新的绿地资源进行实地核查</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技能特长 -->
+  <section class="card">
+    <h2 class="card-title">💻 技能特长</h2>
+    <div class="card-content">
+      <div class="skills-grid">
+        <div class="skill-item">
+          <span class="skill-icon">🏏</span>
+          <h4>运动能力</h4>
+          <p>校棒垒球队成员</p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <span class="skill-icon">📖</span>
+          <h4>英语</h4>
+          <p>CET-6 </p>
+          <div class="skill-bar"><div class="skill-fill" style="width: 80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 荣誉奖励 -->
+  <section class="card">
+    <h2 class="card-title">🏅 荣誉奖励</h2>
+    <div class="card-content">
+      <ul class="honor-list">
+        <li><span class="honor-icon">🌟</span> 华中农业大学本科优秀毕业生</li>
+        <li><span class="honor-icon">⭐</span> 校三好学生</li>
+        <li><span class="honor-icon">✨</span> 优秀团支书</li>
+        <li><span class="honor-icon">💚</span> 国家励志奖学金</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 兴趣爱好 -->
+  <section class="card">
+    <h2 class="card-title">🌸 兴趣爱好</h2>
+    <div class="card-content">
+      <div class="hobbies">
+        <span class="hobby-tag">🎤 唱歌</span>
+        <span class="hobby-tag">📚 阅读</span>
+        <span class="hobby-tag">🏏 棒垒球</span>
+        <span class="hobby-tag">🏸 羽毛球</span>
+        <span class="hobby-tag">🏃 跑步</span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>🌲 王新梅个人简历 🌲</p>
+  </footer>
+</div>
+```
